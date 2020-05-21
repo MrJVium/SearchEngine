@@ -15,7 +15,7 @@ from models.es_types import RumorType, WeiboType
 from elasticsearch_dsl.connections import connections
 
 # es = connections.create_connection(hosts=["localhost"])
-es = connections.create_connection(hosts=["http://119.3.52.214:9200"], http_auth=("elastic:jin821950!"))
+es = connections.create_connection(hosts=[""], http_auth=(""))
 class NewsItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
